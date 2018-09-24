@@ -37,18 +37,18 @@ public class PlayerInput : MonoBehaviour
     {
         // Record current weapon index
         int currentIndex = weaponIndex;
-        // If Q is pressed && weaponIndex > 0
-        if (Input.GetKeyDown(KeyCode.Q) && weaponIndex > 0)
-        {
-            // decrement weaponIndex
-            currentIndex--;
-        }
-        // If E is pressed && weaponIndex <= length
-        if (Input.GetKeyDown(KeyCode.E) && weaponIndex <= player.weapons.Length)
-        {
-            // increment weaponIndex
-            currentIndex++;
-        }
+//        // If Q is pressed && weaponIndex > 0
+//        if (Input.GetKeyDown(KeyCode.Q) && weaponIndex > 0)
+//        {
+//            // decrement weaponIndex
+//            currentIndex--;
+//        }
+//        // If E is pressed && weaponIndex <= length
+//        if (Input.GetKeyDown(KeyCode.E) && weaponIndex <= player.weapons.Length)
+//        {
+//            // increment weaponIndex
+//            currentIndex++;
+//        }
         // If currentIndex has changed
         if (currentIndex != weaponIndex)
         {
