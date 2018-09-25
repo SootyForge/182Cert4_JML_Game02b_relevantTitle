@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Obstacle
+  - Projectile_Player
+  - Enemy
+  - Projectile_Enemy
   layers:
   - Default
   - TransparentFX
@@ -15,10 +18,10 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Bullet_Player
+  - Enemy
+  - Bullet_Enemy
   - 
   - 
   - 

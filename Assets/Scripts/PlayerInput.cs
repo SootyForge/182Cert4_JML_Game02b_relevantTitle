@@ -21,6 +21,12 @@ public class PlayerInput : MonoBehaviour
         float inputH = Input.GetAxis("Horizontal");
         float inputV = Input.GetAxis("Vertical");
         player.Move(inputH, inputV);
+        player.Boost();
+
+        if (Input.GetKey(KeyCode.LeftShift))
+            player.boost = true;
+        else
+            player.boost = false;
 
         if (Input.GetButtonDown("Fire1"))
         {
